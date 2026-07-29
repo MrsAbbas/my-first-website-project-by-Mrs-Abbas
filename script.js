@@ -5,6 +5,7 @@ function submitData(){
     let roll= document.getElementById("input-roll").value;
     let subject= document.getElementById("input-subject").value;
     let group= document.getElementById("input-group").value;
+    let school= document.getElementById("input-school").value;
 
     document.getElementById("display-name").innerHTML="NAME:" + name;
 
@@ -13,6 +14,8 @@ function submitData(){
     document.getElementById("display-subject").innerHTML="SUBJECT:" + subject;
 
     document.getElementById("display-group").innerHTML="GROUP:" + group;
+
+    document.getElementById("display-school").innerHTML="SCHOOL:" + school;
 
     alert("Submitted Successfully ")
 
